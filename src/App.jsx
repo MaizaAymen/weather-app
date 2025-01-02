@@ -28,10 +28,7 @@ function App() {
       <header className="App-header"><h1>Weather App</h1></header>
       <div><input type="text" onChange={(e)=>setsearch(e.target.value)}/>
       <button onClick={serchPres}>aymen</button>
-      <p>ville : {weather.name}</p>
-      <p>température :{weather.main.feels_like}</p>
-      <p>{weather.weather[0].description}</p>
-      <p>humidité:{weather.main.humidity}%</p>
+      
       </div>
       
       
