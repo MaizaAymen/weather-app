@@ -15,7 +15,7 @@ function App() {
     fetch(`${api.base}weather?q=${search}&units=metric&APPID=${api.key}`)
     .then((res)=>res.json())
     .then((result)=>{
-      console.log(result)
+      setweather(result);
     })
 
   }
@@ -26,9 +26,8 @@ function App() {
       <header className="App-header"><h1>Weather App</h1></header>
       <div><input type="text" onChange={(e)=>setsearch(e.target.value)}/>
       <button onClick={serchPres}>aymen</button>
-      <p>{weather.weather[0].description}</p>
       </div>
-      
+      <p>{weather.weather[0].description}</p>
       
      </div>
     </>
