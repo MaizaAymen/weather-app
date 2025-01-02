@@ -10,6 +10,7 @@ const api={
 
 function App() {
   const [search, setsearch] = useState("")
+  const [weather,setweather]
   const serchPres=()=>{
     fetch(`${api.base}weather?q=${search}&units=metric&APPID=${api.key}`)
     .then((res)=>res.json())
