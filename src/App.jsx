@@ -27,8 +27,7 @@ function App() {
       <div><input type="text" onChange={(e)=>setsearch(e.target.value)}/>
       <button onClick={serchPres}>aymen</button>
       </div>
-      <p>{weather.weather[0].description
-      }</p>
+      <p>{weather.weather[0].description}</p>
       
      </div>
     </>
