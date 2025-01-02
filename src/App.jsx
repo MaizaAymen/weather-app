@@ -29,9 +29,7 @@ function App() {
       <div><input type="text" onChange={(e)=>setsearch(e.target.value)}/>
       <button onClick={serchPres}>search</button>
       <p>ville : {weather.name}</p>
-      <p>température :{weather.main.feels_like}</p>
-      <p>{weather.weather[0].description}</p>
-      <p>humidité:{weather.main.humidity}%</p>
+      
       </div>
       
       
