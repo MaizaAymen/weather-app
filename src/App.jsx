@@ -21,9 +21,7 @@ function App() {
 
   }
   const formatTime =(time)=>{
-    return nzw Date(time*1000).tolocaleTimeString();
-
-
+    return new Date(time*1000).tolocaleTimeString();
   }
 
   return (
