@@ -13,7 +13,7 @@ A simple and intuitive weather application built with React and Vite. This app a
 - Lightweight and fast, thanks to Vite.
 
 ## Preview
-![Weather App Screenshot](https://weather-app-one-virid-15.vercel.app/) 
+![Weather App Screenshot](https://i.pinimg.com/736x/77/0b/80/770b805d5c99c7931366c2e84e88f251.jpg) 
 
 ## Tech Stack
 - **React**: For building the user interface.
