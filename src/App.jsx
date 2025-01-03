@@ -42,7 +42,7 @@ function App() {
       <p>
 sunset
 : {formatTime(weather.sys.sunset
-)}</p>
+)}PM</p>
       </div>
       ):( 
       "" 
