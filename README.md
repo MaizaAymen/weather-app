@@ -23,11 +23,9 @@ A simple and intuitive weather application built with React and Vite. This app a
 ## Getting Started
 Follow these steps to get the project up and running on your local machine.
 
-### Prerequisites
-- Node.js (>= 16.x recommended)
-- npm or yarn
-
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/MaizaAymen/weather-app.git
+   cd weather-app
+   npm run dev
