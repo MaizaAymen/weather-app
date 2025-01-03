@@ -40,7 +40,7 @@ function App() {
       <p>humidité:{weather.main.humidity}%</p>
       <p>Sunrise: {formatTime(weather.sys.sunrise)}AM</p>
       <p>
-sunset
+Sunset
 : {formatTime(weather.sys.sunset
 )}PM</p>
       </div>
