@@ -34,7 +34,7 @@ function App() {
       
        {typeof weather.main !== "undefined" ? (
       <div>
-      <p>Ville : {weather.name}</p>
+      <p>Ville : {weather.name} ({weather.sys.country})</p>
       <p>Température :{weather.main.feels_like}</p>
       <p>{weather.weather[0].description}</p>
       <p>Humidité:{weather.main.humidity}%</p>
