@@ -37,7 +37,7 @@ function App() {
       <p>Ville : {weather.name}</p>
       <p>Température :{weather.main.feels_like}</p>
       <p>{weather.weather[0].description}</p>
-      <p>humidité:{weather.main.humidity}%</p>
+      <p>Humidité:{weather.main.humidity}%</p>
       <p>Sunrise: {formatTime(weather.sys.sunrise)} AM</p>
       <p>
 Sunset
