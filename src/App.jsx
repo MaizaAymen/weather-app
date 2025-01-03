@@ -39,7 +39,10 @@ function App() {
       <p>{weather.weather[0].description}</p>
       <p>humidité:{weather.main.humidity}%</p>
       <p>Sunrise: {formatTime(weather.sys.sunrise)}</p>
-      <p>Sunrise: {formatTime(weather.sys.sunrise)}</p>
+      <p>
+sunset
+: {formatTime(weather.sys.sunset
+)}</p>
       </div>
       ):( 
       "" 
